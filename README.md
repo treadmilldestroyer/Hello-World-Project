@@ -1,6 +1,6 @@
-# Project Title (Update)
+# Hello World Project
 
-Add a description of your project here.
+This project is a simple program that exercised my ability to set up my environment in vs code, github, and my local device.
 
 ## Instructions for Build and Use
 
@@ -14,17 +14,15 @@ Steps to build and/or run the software:
 
 Instructions for using the software:
 
-1. First step here
-2.
-3.
+1. Press the run button in the top right corner.
 
 ## Development Environment
 
 To recreate the development environment, you need the following software and/or libraries with the specified versions:
 
-* First thing here
-*
-*
+* VS Code
+* Python 3.13.2
+* Github
 
 ## Useful Websites to Learn More
 
