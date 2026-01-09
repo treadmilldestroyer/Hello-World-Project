@@ -1,6 +1,6 @@
 import tkinter as tk
 
-print("Hello World") #Prints in terminal.
+print("Hello World") #Prints in terminal
 
 #Structure for a pop-up window
 root = tk.Tk()
@@ -14,8 +14,8 @@ my_label = tk.Label(
     text="Hello World!",
     font=("Courier", 30, "bold"),
     bg="black",
-    fg="#00FF00"
+    fg="#00FF00" #Neon green
 )
 
 my_label.pack(pady=65)
-root.mainloop() #IMPORTANT!!! Keeps window visible and waits for user to close window.
+root.mainloop() #IMPORTANT!!! Keeps window visible and waits for user to close window
