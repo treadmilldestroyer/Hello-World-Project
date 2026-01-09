@@ -8,18 +8,21 @@ This project is a simple program that exercised my ability to set up my environm
 
 Steps to build and/or run the software:
 
-1. Press the run button in the top right corner.
+1. VS Code: Press the run button in the top right corner.
+2. Terminal(Mac): Run command "python3 hello_world.py"
+    - Make sure you're in folder with hello_world.py file.
 
 Instructions for using the software:
 
 1. Press the run button in the top right corner.
+2. Exit out of the pop-up window when done.
 
 ## Development Environment
 
 To recreate the development environment, you need the following software and/or libraries with the specified versions:
 
 * VS Code
-* Python 3.13.2
+* Python 3.13.2 
 * Github
 * Git
 
@@ -28,6 +31,7 @@ To recreate the development environment, you need the following software and/or 
 I found these websites useful in developing this software:
 
 * [Gemini](https://gemini.google.com/u/0/app/d4f1f6c5030ebaad)
+* [Tkinter](https://docs.python.org/3/library/tkinter.html#how-do-i-what-option-does)
 
 ## Future Work
 
