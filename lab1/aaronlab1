@@ -1,0 +1,224 @@
+/***********************************************************************
+* Program:
+*    Lab C_lab, ECEN 324 Learning C Lab
+*    Brother Allred, ECEN 324
+* Author:
+*    Aaron Arnold
+* Summary:
+*    Descriptive text ...
+************************************************************************/
+
+// Libraries
+// ... add code here to include the standard library
+
+// ... add code here to include the standard I/O library for printf()
+
+
+// Macros
+#define PI 3.1415926
+
+/*************************************************************************
+* descriptive text goes here
+*************************************************************************/
+int main (void)
+{
+   // Note: Each Print instruction should end in a new line, unless noted
+
+   /************************ Printing constants *************************/
+
+   // Print out the number 24, formatted as a base 10 integer
+   // ... add code here
+
+   // Print out the PI (macro) with 5 digits after the decimal point
+   // ... add code here
+
+   // Declare a constant char called LETTER, initialized to hold 'A'
+   // ... add code here
+
+   // Print out the LETTER constant, formatted as a character
+   // ... add code here
+
+   /************************ Printing variables *************************/
+
+   // Declare a float variable called payRate, initialized with 10.50
+   // ... add code here
+
+   // Declare an int variable called hours, initialized with 40
+   // ... add code here
+
+   // Print "Users pay rate: $10.5" using the payRate variable
+   // ... add code here
+
+   // Print " Hours worked: 40" using the hours variable
+   // ... add code here
+
+   // Print "    Gross Pay: $420" using hours*payRate as a floating point
+   // ... add code here
+
+   /************************* Using user input **************************/
+
+   // Declare an int variable called number
+   // ... add code here
+
+   // Print the "Enter number: " prompt on standard error (without \n)
+   // ... add code here
+
+   // Read a base-10 number from standard in, into the variable number
+   // ... add code here
+
+   // Print "Twice * is **", but replace * with the variable number
+   // and replace ** with (number * 2)
+   // ... add code here
+
+   /******************* Formatted Integer Printing **********************/
+
+   // This is an int
+   int anInt = 99;
+
+   // Note: In this section, replace * with the variable anInt
+
+   // Print out a blank new line
+   // ... add code here
+
+   // Print "Integer: * ###" with the default decimal formatting
+   // ... add code here
+
+   // Print "Integer: * ###" with * having a width of 10, right justified
+   // ... add code here
+
+   // Print "Integer: * ###" with * having a width of 10, left justified
+   // ... add code here
+
+  /**************** Formatted Floating Point Printing *******************/
+
+   // This is a float
+   float aFloat = 43.2;
+
+   // Note: In this section, replace * with the variable aFloat
+
+   // Print out a blank new line
+   // ... add code here
+
+   // Print "  Float: * ###" with 1 digit (of precision after the point)
+   // ... add code here
+
+   // Print "  Float: * ###" with 1 digit, width 10, left justified
+   // ... add code here
+
+   // Print "  Float: * ###" with 2 digits, width 10, right justified
+   // ... add code here
+
+   // Print "  Float: * ###" with 3 digits, no specified width
+   // ... add code here
+
+   // Print "  Float: * ###" with 3 digits, width 10, right justified
+   // ... add code here
+
+   // Print "  Float: * ###" with 4 digits, width 10, left justified
+   // ... add code here
+
+
+   /******************** Print a formatted a table ***********************
+
+   // Use a loop to print the table below, with the iterator i as the
+   // only variable, having a single printf() statement inside the loop
+   // for each line. Note that each line prints the same number four ways.
+
+        Oct   Dec   Hex   Char
+        ----------------------
+        141   97    61    a
+        142   98    62    b
+        143   99    63    c
+        144   100   64    d
+        145   101   65    e
+        146   102   66    f
+        147   103   67    g
+        150   104   68    h
+        151   105   69    i
+        152   106   6a    j
+        153   107   6b    k
+        154   108   6c    l
+        155   109   6d    m
+        156   110   6e    n
+        157   111   6f    o
+        160   112   70    p
+        161   113   71    q
+        162   114   72    r
+        163   115   73    s
+        164   116   74    t
+        165   117   75    u
+        166   118   76    v
+        167   119   77    w
+        170   120   78    x
+        171   121   79    y
+        172   122   7a    z
+
+    *********************************************************************/
+
+   // ... add code here for the table
+
+
+   /*************** Now play with pointers to finish up *****************/
+
+   // Here are two integer pointers
+   int *p1;
+   int *p2;
+
+   // Dynamically allocate memory for a new int, and have p1 point to it
+   // ... add code here
+
+   // Note: Whenever you dynamically allocate memory, you should verify
+   // that the allocation was successful before using that memory.
+   // Add such a check below. If the allocation was not successful,
+   // then print "Out of Memory" to stardard error and early terminate
+   // with a return code of 1. An unsuccessfull memory allocation would
+   // have returned the NULL pointer (aka address zero) from malloc.
+   // ... add code here
+
+   // Store the number 42 in the memory location p1 points to
+   // ... add code here
+
+   // Have p2 point to the same place p1 points to
+   // ... add code here
+
+   // Print "*p1 == x", where x is the int p1 points to, in decimal format
+   // ... add code here
+
+   // Print "*p2 == x", where x is the int p2 points to, in decimal format
+   // ... add code here
+
+   // Store the number 53 in the memory location p2 points to
+   // ... add code here
+
+   // Print "*p1 == x", where x is the int p1 points to, in decimal format
+   // ... add code here
+
+   // Print "*p2 == x", where x is the int p2 points to, in decimal format
+   // ... add code here
+
+   // Dynamically allocate memory for a new int, and have p1 point to it
+   // ... add code here
+
+   // Don't forget to check the memory allocation success before using p1
+   // ... add code here
+
+   // Store the number 88 in the memory location p1 points to
+   // ... add code here
+
+   // Print "*p1 == x", where x is the int p1 points to, in decimal format
+   // ... add code here
+
+   // Print "*p2 == x", where x is the int p2 points to, in decimal format
+   // ... add code here
+
+   // Note: Whenever you dynamically allocate memory, you should free up
+   // that memory when you are finished with it to a void a memory leak.
+   // Free up the two memory locations you previously allocated.
+   // ... add code here
+
+   // Print the string "Hope you got the point of this example!"
+   // ... add code here
+
+   return 0;
+}
+
